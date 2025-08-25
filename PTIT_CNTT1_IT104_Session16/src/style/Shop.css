@@ -1,0 +1,135 @@
+img {
+    max-width: 250px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff6200;
+    color: white;
+    font-size: 16px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.product-item {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.product-item p {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-item button:hover {
+    background-color: #0056b3;
+}
+
+.cart-card {
+    position: fixed;
+    right: 20px;
+    top: 70px;
+    background-color: #fff;
+    color: #333;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.order-list {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title-product {
+    flex-grow: 1;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.cart-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cart-item button:hover {
+    background-color: #0056b3;
+}
+
+.quantity-product {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.cart-item span:last-child {
+    cursor: pointer;
+    font-size: 16px;
+    color: #dc3545;
+}
+
+.cart-card p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.cart-card b {
+    color: #dc3545;
+}

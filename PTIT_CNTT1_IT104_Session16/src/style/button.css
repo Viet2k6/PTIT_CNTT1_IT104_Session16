@@ -1,0 +1,37 @@
+.button {
+  width: auto;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-right: 5px;
+}
+
+.primary{ 
+    background-color: #0977ee; 
+}
+.secondary { 
+    background-color: #6c757d; 
+}
+.success   { 
+    background-color: #28a745; 
+}
+.warning   { 
+    background-color: #ffc107; 
+    color: black; 
+}
+.danger    { 
+    background-color: #dc3545; 
+}
+.info      { 
+    background-color: #2bb1c5; 
+    color: black; 
+}
+.light     { 
+    background-color: #f8f9fa; 
+    color: black; 
+}
+.dark      { 
+    background-color: #000000; 
+}
