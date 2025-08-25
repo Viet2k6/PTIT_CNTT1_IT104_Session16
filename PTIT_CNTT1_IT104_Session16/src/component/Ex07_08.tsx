@@ -1,6 +1,6 @@
 import { Component } from "react";
-import { Product, products } from "./shop_data";
-import { user } from "./buy";
+import { Product, products } from "./Cart/shop_data";
+import { user } from "./Cart/buy";
 import "../style/Shop.css";
 interface ShoppingCartState {
     showCart: boolean;
